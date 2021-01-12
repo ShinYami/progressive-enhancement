@@ -224,6 +224,7 @@ ul li {
 .blackh3 {
     color: initial;
 }
+
 /* essaie flexbox */
 
 .board {
@@ -236,10 +237,11 @@ ul li {
     margin: 0;
 }
 
-.active_section{
+.active_section {
     border-top: 1px grey solid;
     border-bottom: 1px grey solid;
 }
+
 .icon_column {
     display: flex;
     flex-direction: row;
@@ -254,19 +256,22 @@ ul li {
 .collab_section {
     background-color: white;
 }
+
 .collab {
     font-family: 'Roboto', sans-serif;
     font-size: 35px;
 }
+
 .collab_2 {
-    font-family: "Roboto";Sans serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
 }
+
 .getstarted {
     margin: auto;
     max-width: 500px;
     padding-bottom: 35px;
-    font-family: freight-text-pro,Georgia,sans-serif;
+    font-family: freight-text-pro, Georgia, sans-serif;
 }
 
 input[type=text], select, textarea {
@@ -281,7 +286,7 @@ input[type=text], select, textarea {
     font-weight: bold;
   }
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #3093f7; 
     border: none;
     color: white;
@@ -298,37 +303,37 @@ input[type=text], select, textarea {
     font-weight: bold;
   }
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #3093f7;
   }
   
-  .register {
+.register {
     border: 1px black solid;
     border-radius: 5px;
     background-color: #e9edf2;
     padding: 20px;
   }
 
-  label {
+label {
       float: left;
       font-size: 1rem;
       font-weight: 600;
       font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif
   }
 
-  .max30 {
+.max30 {
       max-width: 480px;
       margin-left: auto;
       margin-right: auto;
   }
 
-  .secure {
+.secure {
       padding: 0;
       margin: 0;
   }
+
 .lighter {
-    color: grey;
-    font-size: 
+    color: grey; 
 }
 
 footer {
@@ -336,7 +341,6 @@ footer {
     text-align: center;
     padding: 2em 0;
     color: #fff;   
-
 }
 
 .footer_container {
