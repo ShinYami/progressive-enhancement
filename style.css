@@ -6,7 +6,6 @@
   }
 
 body{ 
-    background-color: #e9edf2;
     line-height: 1.6;
     max-width: 100%;
     margin: 0px;
@@ -20,12 +19,17 @@ header {
     text-decoration: none;
 }
 
-.li, a, button {
+a, button {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
 
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
 }
 
 a {
@@ -88,11 +92,7 @@ p {
     font-family: "Roboto", sans-serif;
 }
 
-ul li {
-    text-decoration: none;
-    list-style-type: none;
-    font-family: "Bodoni Moda", serif;
-}
+
 
 .container1 {
     text-align: center;
@@ -104,6 +104,7 @@ ul li {
   
 .sub{
     font-weight: bold;
+    font-size: 12px;
 }
 /* colonne avec utilisage de float etc (essai sans flexbox) */
 .column {
@@ -186,6 +187,9 @@ ul li {
     border-color: black;
 }
 
+.project {
+    background-color: #e9edf2;
+}
 .imgprojet {
     border: 0px;
     max-width: 85%
@@ -207,6 +211,11 @@ ul li {
     margin-top: -7px;
     text-align: center;
     padding-top: 50px;
+    margin-bottom: -5px;
+}
+
+.list {
+    font-family: 'Roboto', sans-serif;
 }
 
 .description deux {
@@ -228,7 +237,7 @@ ul li {
 /* essaie flexbox */
 
 .board {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     height: 100%;
     min-width: 100vh;
@@ -239,7 +248,6 @@ ul li {
 
 .active_section {
     border-top: 1px grey solid;
-    border-bottom: 1px grey solid;
 }
 
 .icon_column {
@@ -308,11 +316,25 @@ input[type=submit]:hover {
   }
   
 .register {
+    background-color: #ffffff;
+  }
+
+.register_form {
     border: 1px black solid;
     border-radius: 5px;
     background-color: #e9edf2;
     padding: 20px;
-  }
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+
+}
+
+.sub_form {
+    font-weight: bold;
+    font-size: 15px;
+}
 
 label {
       float: left;
@@ -321,33 +343,52 @@ label {
       font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif
   }
 
-.max30 {
-      max-width: 480px;
-      margin-left: auto;
-      margin-right: auto;
-  }
+
 
 .secure {
       padding: 0;
       margin: 0;
-  }
+}
 
 .lighter {
-    color: grey; 
+    color: grey;
+    font-size: small; 
+    margin-bottom: 100px;
+}
+
+.secure_btn {
+    color: grey;
+    text-decoration: underline;
+    font-size: smaller;
 }
 
 footer {
     background-color: #3F4655;
     text-align: center;
     padding: 2em 0;
-    color: #fff;   
+    color: #fff;
+    display: block;   
 }
 
 .footer_container {
-    display: flex;
+    display: inline-flex;
     text-align: left;
+}
+
+.footer_container ul li {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    padding: 1px;
+    font-weight: bold;
 }
 
 .footer_head {
     opacity: 0.5;
+    font-weight: bold;
+}
+
+.happy {
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: 12px;
 }
