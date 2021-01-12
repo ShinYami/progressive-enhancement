@@ -5,6 +5,6 @@ HTML/CSS Exercice
 
 Exercice to learn how to make basic website 
 
-![](assets\testperf.png)
+![screenshot](assets\testperf.png)
 
-As you can see, still need to practise my SOE !
+### As you can see, still need to practise my SOE !
