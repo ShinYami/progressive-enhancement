@@ -153,6 +153,7 @@ p {
     border-width: 1px;
     border-style: solid;
     border-color: black;
+    cursor: pointer;
 }
 
 .btn_nav_white {
@@ -169,6 +170,7 @@ p {
     border-width: 1px;
     border-style: solid;
     border-color: black;
+    cursor: pointer;
 }
 
 .btn { 
@@ -185,6 +187,7 @@ p {
     border-width: 1px;
     border-style: solid;
     border-color: black;
+    cursor: pointer;
 }
 
 .project {
