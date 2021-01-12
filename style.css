@@ -197,6 +197,7 @@ p {
 .Cloud {
     background-color: white;
     padding-bottom: 70px;
+    border-bottom: 1px solid gray;
     
 }
 
@@ -247,7 +248,7 @@ p {
 }
 
 .active_section {
-    border-top: 1px grey solid;
+    background-color: #e9edf2;
 }
 
 .icon_column {
