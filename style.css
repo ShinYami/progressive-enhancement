@@ -156,7 +156,7 @@ p {
     cursor: pointer;
 }
 
-.btn_nav_blue .HD {
+.btn_nav_blue.HD {
     margin-top: 10px;
 }
 
