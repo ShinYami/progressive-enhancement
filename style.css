@@ -220,6 +220,7 @@ p {
 
 .list {
     font-family: 'Roboto', sans-serif;
+    display: inline;
 }
 
 .description deux {
